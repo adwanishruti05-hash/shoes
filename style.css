@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+body{
+  background-image: linear-gradient( 110deg,  rgba(80, 108, 173, 0.842) 11.3%, rgba(19, 35, 66, 0.911) 99.3% );
+  color: white;
+  position: relative;
+
+}
+.link{
+  position: absolute;
+  top: 400px;
+}
+.logo{
+    color:white;
+    padding: 20px;
+   
+}
+.icon{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    
+
+}
+ul li a{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    gap:20px;
+    opacity: 0.8;
+
+}
+ul li a:hover{
+    opacity: 1;
+    color: rgb(179, 169, 39);
+    text-decoration: none;
+  
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+img{
+    margin-left:200px;
+    z-index: -1;
+
+}
+.content{
+    position: relative;
+}
+.hero{
+    color: white;
+    margin-top: 50px;
+    margin-left:50px;
+
+}
+
+
+
+
+.image{
+      position: absolute;
+}
+.shoe {
+  width: 600px;
+  transform: rotate(-15deg);
+  animation: floatShoe 3s ease-in-out infinite;
+  filter: drop-shadow(0 25px 25px rgba(0,0,0,0.4));
+}
+@keyframes floatShoe {
+  0% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(-15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-15deg);
+  }
+}
+.rotate {
+  position: absolute;
+  top:200px;
+  left: 90px;
+ 
+  transform: rotate(-90deg);
+  font-size: 12px;
+ 
+}
+.rotate2 {
+  position: absolute;
+  top:200px;
+  left: 750px;
+  display: flex;
+  gap:10px;
+ 
+  transform: rotate(-90deg);
+  font-size: 12px;
+ 
+}
